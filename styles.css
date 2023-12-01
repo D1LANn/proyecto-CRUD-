@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d6ebf2;
+}
+
+h1 {
+    background-color: #4b9dc5;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+form {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #ecf4f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="button"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4b9dc5;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover {
+    background-color: #1e4c6e;
+}
+
+#petList {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #ecf4f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#petList div {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #4b9dc5;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4b9dc5;
+    color: #ffffff;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #1e4c6e;
+}
+

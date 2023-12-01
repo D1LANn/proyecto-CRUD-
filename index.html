@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>patitas perdidas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>patitas perdidas</h1>
+    <form id="petForm">
+        <label for="ownerName">Nombre del Dueño:</label><br>
+        <input type="text" id="ownerName" name="ownerName"><br>
+        <label for="petName">Nombre de la Mascota:</label><br>
+        <input type="text" id="petName" name="petName"><br>
+        <label for="petType">Tipo de Mascota:</label><br>
+        <input type="text" id="petType" name="petType"><br>
+        <label for="petLocation">Última Ubicación Conocida:</label><br>
+        <input type="text" id="petLocation" name="petLocation"><br>
+        <input type="button" value="Agregar Mascotas Perdidas" onclick="addPet()">
+    </form>
+    <div id="petList">
+        <!-- Aquí se mostrará la lista de mascotas perdidas -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
